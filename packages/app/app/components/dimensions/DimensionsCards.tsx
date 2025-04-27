@@ -196,13 +196,13 @@ const DimensionContent: FC<{
       </div>
 
       {bars.map((bar) => (
-        <div class="flex items-center justify-between" key={bar.value}>
-          <div class="flex items-center gap-2 relative flex-grow mr-4">
+        <div class="flex items-stretch justify-between" key={bar.value}>
+          <div class="flex items-center gap-2 relative flex-grow mr-4 overflow-hidden">
             <div
               class="absolute h-full bg-base-content/15 rounded-sm"
               style={{ width: `${max > 0 ? (bar.count / max) * 100 : 0}%` }}
             />
-            <span class="px-2 py-1">
+            <span class="px-2 py-1 whitespace-nowrap overflow-hidden text-ellipsis block">
               {bar.value ? bar.value : "(no value)"}
             </span>
           </div>
