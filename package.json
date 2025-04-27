@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
-    "turbo": "^2.5.0"
+    "turbo": "^2.5.2"
   },
   "author": "abegehr",
   "license": "MIT",
