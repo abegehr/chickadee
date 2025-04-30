@@ -48,7 +48,7 @@ export const POST = createRoute(async (c) => {
   defer
   data-domain="${sid}"
   src="https://[WORKER_DOMAIN].workers.dev/script.js"
-/>`;
+></script>`;
   return c.render(
     <article class="prose prose-lg text-center max-w-full">
       <h1>Setup Complete</h1>
