@@ -2,7 +2,7 @@
 
 Simple, privacy-focused web analytics you can self-host on Cloudflare.
 
-Deploy with one click:
+## Deploy with One-Click
 
 [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/abegehr/chickadee/tree/main/packages/app)
 
@@ -12,12 +12,7 @@ Configuration:
 - Deploy command: `npm run deploy`
 - Root directory: `/`
 
-Monorepo:
-
-- `./packages/app` - the service: events endpoint, client script, and dashboard
-- `./packages/web` - the landing page: <https://www.chickadee.me>
-
-## Deploy your Own
+## Deploy Manually
 
 1. Make sure you have installed the [Cloudflare Wrangler CLI](https://developers.cloudflare.com/workers/wrangler/install-and-update/) and authenticated with your Cloudflare account by calling `wrangler login`.
 2. Clone the repo: `git clone https://github.com/abegehr/chickadee` and `cd chickadee`.
@@ -29,6 +24,11 @@ Monorepo:
 8. Open your worker URL in your browser and login with username `admin` and password `BASIC_PASSWORD` configured in step 6.
 
 ## Development
+
+Monorepo:
+
+- `./packages/app` - the service: events endpoint, client script, and dashboard
+- `./packages/web` - the landing page: <https://www.chickadee.me>
 
 ### Secrets
 
