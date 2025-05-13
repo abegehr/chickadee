@@ -12,7 +12,7 @@ Monorepo:
 1. Make sure you have installed the [Cloudflare Wrangler CLI](https://developers.cloudflare.com/workers/wrangler/install-and-update/) and authenticated with your Cloudflare account by calling `wrangler login`.
 2. Clone the repo: `git clone https://github.com/abegehr/chickadee` and `cd chickadee`.
 3. Run `pnpm i` to install the dependencies.
-4. Create a new KV namespace on Cloudflare for chickadee: `pnpm app wrangler kv namespace create chickadee` and update the id in `./packages/app/wrangler.toml`.
+4. Create a new KV namespace on Cloudflare for chickadee: `pnpm app wrangler kv namespace create chickadee` and update the id in `./packages/app/wrangler.toml`. Make sure to keep the binding as "KV" and only update the id of the KV namespace.
 5. Run `pnpm app run deploy` to deploy the service to Cloudflare.
 6. Make note of your worker URL: `https://<your-worker-name>.workers.dev`.
 7. Set all secrets listed in the [Secrets](#secrets) section on you worker: `pnpm app wrangler secret put …`.
