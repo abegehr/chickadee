@@ -8,8 +8,8 @@ Deploy with one click:
 
 Configuration:
 
-- Build command: none
-- Deploy command: `pnpm app run deploy`
+- Build command: `npm run build`
+- Deploy command: `npm run deploy`
 - Root directory: `/`
 
 Monorepo:

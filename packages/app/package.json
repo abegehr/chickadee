@@ -7,8 +7,8 @@
     "check-types": "tsc --noEmit",
     "build": "vite build --mode client && vite build",
     "preview": "wrangler dev",
-    "deploy": "$npm_execpath run build && wrangler deploy",
-    "deploy@demo": "$npm_execpath run build && wrangler deploy --config=./wrangler-demo.toml",
+    "deploy": "wrangler deploy",
+    "deploy@demo": "wrangler deploy --config=./wrangler-demo.toml",
     "wrangler": "exec wrangler"
   },
   "dependencies": {
