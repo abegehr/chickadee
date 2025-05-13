@@ -14,6 +14,8 @@ Recommended configuration:
 - Deploy command: `npm run deploy`
 - Root directory: `/`
 
+Set the required secrets listed in the [Secrets](#secrets) section on the worker.
+
 ## Deploy Manually
 
 1. Make sure you have installed the [Cloudflare Wrangler CLI](https://developers.cloudflare.com/workers/wrangler/install-and-update/) and authenticated with your Cloudflare account by calling `wrangler login`.
@@ -34,7 +36,7 @@ Monorepo:
 
 ### Secrets
 
-Copy `./packages/app/.dev.vars.example` to `./packages/app/.dev.vars` and set the following secrets:
+`./packages/app/.dev.vars.example`
 
 - `ACCOUNT_ID` - your Cloudflare account ID, find it on the [Cloudflare dashboard](https://dash.cloudflare.com) under Workers & Pages on the right side.
 - `CLOUDFLARE_API_TOKEN` - Cloudflare account token with "Access: Analytics" Read permission: <https://developers.cloudflare.com/analytics/analytics-engine/get-started/#create-an-api-token>
