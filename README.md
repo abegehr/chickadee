@@ -6,6 +6,12 @@ Deploy with one click:
 
 [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/abegehr/chickadee/tree/main/packages/app)
 
+Configuration:
+
+- Build command: none
+- Deploy command: `pnpm app run deploy`
+- Root directory: `/`
+
 Monorepo:
 
 - `./packages/app` - the service: events endpoint, client script, and dashboard
