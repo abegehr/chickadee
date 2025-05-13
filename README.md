@@ -6,8 +6,10 @@ Simple, privacy-focused web analytics you can self-host on Cloudflare.
 
 [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/abegehr/chickadee/tree/main/packages/app)
 
-Configuration:
+Recommended configuration:
 
+- Project name: `chickadee`
+- KV namespace name: `chickadee`
 - Build command: `npm run build`
 - Deploy command: `npm run deploy`
 - Root directory: `/`
