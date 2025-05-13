@@ -4,7 +4,7 @@ Simple, privacy-focused web analytics you can self-host on Cloudflare.
 
 Deploy with one click:
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/abegehr/chickadee/packages/app)
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/abegehr/chickadee/tree/main/packages/app)
 
 Monorepo:
 
