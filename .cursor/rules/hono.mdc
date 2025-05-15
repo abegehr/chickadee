@@ -76,27 +76,27 @@ Here are some examples of use-cases.
 
 | Project                                                                            | Platform           | What for?                                                                                                   |
 | ---------------------------------------------------------------------------------- | ------------------ | ----------------------------------------------------------------------------------------------------------- |
-| [cdnjs](mdc:https:/cdnjs.com)                                                         | Cloudflare Workers | A free and open-source CDN service. _Hono is used for the API server_.                                      |
-| [Cloudflare D1](mdc:https:/www.cloudflare.com/developer-platform/d1)                 | Cloudflare Workers | Serverless SQL databases. _Hono is used for the internal API server_.                                       |
-| [Cloudflare Workers KV](mdc:https:/www.cloudflare.com/developer-platform/workers-kv) | Cloudflare Workers | Serverless key-value database. _Hono is used for the internal API server_.                                  |
-| [BaseAI](mdc:https:/baseai.dev)                                                       | Local AI Server    | Serverless AI agent pipes with memory. An open-source agentic AI framework for web. _API server with Hono_. |
-| [Unkey](mdc:https:/unkey.dev)                                                         | Cloudflare Workers | An open-source API authentication and authorization. _Hono is used for the API server_.                     |
-| [OpenStatus](mdc:https:/openstatus.dev)                                               | Bun                | An open-source website & API monitoring platform. _Hono is used for the API server_.                        |
-| [Deno Benchmarks](mdc:https:/deno.com/benchmarks)                                     | Deno               | A secure TypeScript runtime built on V8. _Hono is used for benchmarking_.                                   |
-| [Clerk](mdc:https:/clerk.com)                                                         | Cloudflare Workers | An open-source User Management Platform. _Hono is used for the API server_.                                   |
+| [cdnjs](https://cdnjs.com)                                                         | Cloudflare Workers | A free and open-source CDN service. _Hono is used for the API server_.                                      |
+| [Cloudflare D1](https://www.cloudflare.com/developer-platform/d1/)                 | Cloudflare Workers | Serverless SQL databases. _Hono is used for the internal API server_.                                       |
+| [Cloudflare Workers KV](https://www.cloudflare.com/developer-platform/workers-kv/) | Cloudflare Workers | Serverless key-value database. _Hono is used for the internal API server_.                                  |
+| [BaseAI](https://baseai.dev)                                                       | Local AI Server    | Serverless AI agent pipes with memory. An open-source agentic AI framework for web. _API server with Hono_. |
+| [Unkey](https://unkey.dev)                                                         | Cloudflare Workers | An open-source API authentication and authorization. _Hono is used for the API server_.                     |
+| [OpenStatus](https://openstatus.dev)                                               | Bun                | An open-source website & API monitoring platform. _Hono is used for the API server_.                        |
+| [Deno Benchmarks](https://deno.com/benchmarks)                                     | Deno               | A secure TypeScript runtime built on V8. _Hono is used for benchmarking_.                                   |
+| [Clerk](https://clerk.com)                                                         | Cloudflare Workers | An open-source User Management Platform. _Hono is used for the API server_.                                 |
 
 And the following.
 
-- [Drivly](mdc:https:/driv.ly) - Cloudflare Workers
-- [repeat.dev](mdc:https:/repeat.dev) - Cloudflare Workers
+- [Drivly](https://driv.ly/) - Cloudflare Workers
+- [repeat.dev](https://repeat.dev/) - Cloudflare Workers
 
-Do you want to see more? See [Who is using Hono in production?](mdc:https:/github.com/orgs/honojs/discussions/1510).
+Do you want to see more? See [Who is using Hono in production?](https://github.com/orgs/honojs/discussions/1510).
 
 ## Hono in 1 minute
 
 A demonstration to create an application for Cloudflare Workers with Hono.
 
-![Demo](mdc:images/sc.gif)
+![A gif showing a hono app being created quickly with fast iteration.](/images/sc.gif)
 
 ## Ultrafast
 
@@ -111,7 +111,7 @@ Fastest is Hono
 ✨  Done in 28.06s.
 ```
 
-See [more benchmarks](mdc:docs/concepts/benchmarks).
+See [more benchmarks](/docs/concepts/benchmarks).
 
 ## Lightweight
 
@@ -135,7 +135,7 @@ Total Upload: 11.47 KiB / gzip: 4.34 KiB
 
 **LinearRouter** registers the routes very quickly, so it's suitable for an environment that initializes applications every time. **PatternRouter** simply adds and matches the pattern, making it small.
 
-See [more information about routes](mdc:docs/concepts/routers).
+See [more information about routes](/docs/concepts/routers).
 
 ## Web Standards
 
@@ -151,9 +151,9 @@ Thanks to the use of the **Web Standards**, Hono works on a lot of platforms.
 - Lambda@Edge
 - Others
 
-And by using [a Node.js adapter](mdc:https:/github.com/honojs/node-server), Hono works on Node.js.
+And by using [a Node.js adapter](https://github.com/honojs/node-server), Hono works on Node.js.
 
-See [more information about Web Standards](mdc:docs/concepts/web-standard).
+See [more information about Web Standards](/docs/concepts/web-standard).
 
 ## Middleware & Helpers
 
@@ -161,27 +161,27 @@ See [more information about Web Standards](mdc:docs/concepts/web-standard).
 
 Out of the box, Hono provides middleware and helpers for:
 
-- [Basic Authentication](mdc:docs/middleware/builtin/basic-auth)
-- [Bearer Authentication](mdc:docs/middleware/builtin/bearer-auth)
-- [Body Limit](mdc:docs/middleware/builtin/body-limit)
-- [Cache](mdc:docs/middleware/builtin/cache)
-- [Compress](mdc:docs/middleware/builtin/compress)
-- [Context Storage](mdc:docs/middleware/builtin/context-storage)
-- [Cookie](mdc:docs/helpers/cookie)
-- [CORS](mdc:docs/middleware/builtin/cors)
-- [ETag](mdc:docs/middleware/builtin/etag)
-- [html](mdc:docs/helpers/html)
-- [JSX](mdc:docs/guides/jsx)
-- [JWT Authentication](mdc:docs/middleware/builtin/jwt)
-- [Logger](mdc:docs/middleware/builtin/logger)
-- [Language](mdc:docs/middleware/builtin/language)
-- [Pretty JSON](mdc:docs/middleware/builtin/pretty-json)
-- [Secure Headers](mdc:docs/middleware/builtin/secure-headers)
-- [SSG](mdc:docs/helpers/ssg)
-- [Streaming](mdc:docs/helpers/streaming)
-- [GraphQL Server](mdc:https:/github.com/honojs/middleware/tree/main/packages/graphql-server)
-- [Firebase Authentication](mdc:https:/github.com/honojs/middleware/tree/main/packages/firebase-auth)
-- [Sentry](mdc:https:/github.com/honojs/middleware/tree/main/packages/sentry)
+- [Basic Authentication](/docs/middleware/builtin/basic-auth)
+- [Bearer Authentication](/docs/middleware/builtin/bearer-auth)
+- [Body Limit](/docs/middleware/builtin/body-limit)
+- [Cache](/docs/middleware/builtin/cache)
+- [Compress](/docs/middleware/builtin/compress)
+- [Context Storage](/docs/middleware/builtin/context-storage)
+- [Cookie](/docs/helpers/cookie)
+- [CORS](/docs/middleware/builtin/cors)
+- [ETag](/docs/middleware/builtin/etag)
+- [html](/docs/helpers/html)
+- [JSX](/docs/guides/jsx)
+- [JWT Authentication](/docs/middleware/builtin/jwt)
+- [Logger](/docs/middleware/builtin/logger)
+- [Language](/docs/middleware/builtin/language)
+- [Pretty JSON](/docs/middleware/builtin/pretty-json)
+- [Secure Headers](/docs/middleware/builtin/secure-headers)
+- [SSG](/docs/helpers/ssg)
+- [Streaming](/docs/helpers/streaming)
+- [GraphQL Server](https://github.com/honojs/middleware/tree/main/packages/graphql-server)
+- [Firebase Authentication](https://github.com/honojs/middleware/tree/main/packages/firebase-auth)
+- [Sentry](https://github.com/honojs/middleware/tree/main/packages/sentry)
 - Others!
 
 For example, adding ETag and request logging only takes a few lines of code with Hono:
@@ -195,7 +195,7 @@ const app = new Hono()
 app.use(etag(), logger())
 ```
 
-See [more information about Middleware](mdc:docs/concepts/middleware).
+See [more information about Middleware](/docs/concepts/middleware).
 
 ## Developer Experience
 
@@ -206,12 +206,12 @@ Moreover, Hono is written in TypeScript. Hono has "**Types**".
 
 For example, the path parameters will be literal types.
 
-![SS](mdc:images/ss.png)
+![A screenshot showing Hono having proper literal typing when URL parameters. The URL "/entry/:date/:id" allows for request parameters to be "date" or "id"](/images/ss.png)
 
 And, the Validator and Hono Client `hc` enable the RPC mode. In RPC mode,
 you can use your favorite validator such as Zod and easily share server-side API specs with the client and build type-safe applications.
 
-See [Hono Stacks](mdc:docs/concepts/stacks).
+See [Hono Stacks](/docs/concepts/stacks).
 
 
 # Best Practices
@@ -256,7 +256,7 @@ app.get('/books/:id', (c) => {
 
 ## `factory.createHandlers()` in `hono/factory`
 
-If you still want to create a RoR-like Controller, use `factory.createHandlers()` in [`hono/factory`](mdc:docs/helpers/factory). If you use this, type inference will work correctly.
+If you still want to create a RoR-like Controller, use `factory.createHandlers()` in [`hono/factory`](/docs/helpers/factory). If you use this, type inference will work correctly.
 
 ```ts
 import { createFactory } from 'hono/factory'
@@ -355,12 +355,12 @@ import { hc } from 'hono/client'
 const client = hc<typeof app>('http://localhost') // Typed correctly
 ```
 
-For more detailed information, please see [the RPC page](mdc:docs/guides/rpc#using-rpc-with-larger-applications).
+For more detailed information, please see [the RPC page](/docs/guides/rpc#using-rpc-with-larger-applications).
 
 
 # Examples
 
-See the [Examples section](mdc:examples).
+See the [Examples section](/examples/).
 
 
 # Frequently Asked Questions
@@ -369,7 +369,7 @@ This guide is a collection of frequently asked questions (FAQ) about Hono and ho
 
 ## Is there an official Renovate config for Hono?
 
-The Hono teams does not currently maintain [Renovate](mdc:https:/github.com/renovatebot/renovate) Configuration.
+The Hono teams does not currently maintain [Renovate](https://github.com/renovatebot/renovate) Configuration.
 Therefore, please use third-party renovate-config as follows.
 
 In your `renovate.json` :
@@ -384,14 +384,14 @@ In your `renovate.json` :
 }
 ```
 
-see [renovate-config-hono](mdc:https:/github.com/shinGangan/renovate-config-hono) repository for more details.
+see [renovate-config-hono](https://github.com/shinGangan/renovate-config-hono) repository for more details.
 
 
 # Helpers
 
 Helpers are available to assist in developing your application. Unlike middleware, they don't act as handlers, but rather provide useful functions.
 
-For instance, here's how to use the [Cookie helper](mdc:docs/helpers/cookie):
+For instance, here's how to use the [Cookie helper](/docs/helpers/cookie):
 
 ```ts
 import { getCookie, setCookie } from 'hono/cookie'
@@ -408,18 +408,18 @@ app.get('/cookie', (c) => {
 
 ## Available Helpers
 
-- [Accepts](mdc:docs/helpers/accepts)
-- [Adapter](mdc:docs/helpers/adapter)
-- [Cookie](mdc:docs/helpers/cookie)
-- [css](mdc:docs/helpers/css)
-- [Dev](mdc:docs/helpers/dev)
-- [Factory](mdc:docs/helpers/factory)
-- [html](mdc:docs/helpers/html)
-- [JWT](mdc:docs/helpers/jwt)
-- [SSG](mdc:docs/helpers/ssg)
-- [Streaming](mdc:docs/helpers/streaming)
-- [Testing](mdc:docs/helpers/testing)
-- [WebSocket](mdc:docs/helpers/websocket)
+- [Accepts](/docs/helpers/accepts)
+- [Adapter](/docs/helpers/adapter)
+- [Cookie](/docs/helpers/cookie)
+- [css](/docs/helpers/css)
+- [Dev](/docs/helpers/dev)
+- [Factory](/docs/helpers/factory)
+- [html](/docs/helpers/html)
+- [JWT](/docs/helpers/jwt)
+- [SSG](/docs/helpers/ssg)
+- [Streaming](/docs/helpers/streaming)
+- [Testing](/docs/helpers/testing)
+- [WebSocket](/docs/helpers/websocket)
 
 
 # Client Components
@@ -472,7 +472,7 @@ render(<Component />, container)
 
 ## Hooks compatible with React
 
-hono/jsx/dom has Hooks that are compatible or partially compatible with React. You can learn about these APIs by looking at [the React documentation](mdc:https:/react.dev/reference/react/hooks).
+hono/jsx/dom has Hooks that are compatible or partially compatible with React. You can learn about these APIs by looking at [the React documentation](https://react.dev/reference/react/hooks).
 
 - `useState()`
 - `useEffect()`
@@ -501,7 +501,7 @@ hono/jsx/dom has Hooks that are compatible or partially compatible with React. Y
 
 ## `startViewTransition()` family
 
-The `startViewTransition()` family contains original hooks and functions to handle [View Transitions API](mdc:https:/developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API) easily. The followings are examples of how to use them.
+The `startViewTransition()` family contains original hooks and functions to handle [View Transitions API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API) easily. The followings are examples of how to use them.
 
 ### 1. An easiest example
 
@@ -619,7 +619,7 @@ If you want to change the style only during the animation. You can use `useViewT
 When this hook is used, the Component is evaluated at the following two times.
 
 - Inside the callback of a call to `startViewTransition()`.
-- When [the `finish` promise becomes fulfilled](mdc:https:/developer.mozilla.org/en-US/docs/Web/API/ViewTransition/finished)
+- When [the `finish` promise becomes fulfilled](https://developer.mozilla.org/en-US/docs/Web/API/ViewTransition/finished)
 
 ```tsx
 import { useState, useViewTransition } from 'hono/jsx'
@@ -760,7 +760,7 @@ For Deno, you have to modify the `deno.json` instead of the `tsconfig.json`:
 ## Usage
 
 :::info
-If you are comming straight from the [Quick Start](mdc:docs/#quick-start), the main file has a `.ts` extension - you need to change it to `.tsx` - otherwise you will not be able to run the application at all. You should additionally modify the `package.json` (or `deno.json` if you are using Deno) to reflect that change (e.g. instead of having `bun run --hot src/index.ts` in dev script, you should have `bun run --hot src/index.tsx`).
+If you are comming straight from the [Quick Start](/docs/#quick-start), the main file has a `.ts` extension - you need to change it to `.tsx` - otherwise you will not be able to run the application at all. You should additionally modify the `package.json` (or `deno.json` if you are using Deno) to reflect that change (e.g. instead of having `bun run --hot src/index.ts` in dev script, you should have `bun run --hot src/index.tsx`).
 :::
 
 `index.tsx`:
@@ -1032,7 +1032,7 @@ app.get('/with-suspense', async (c) => {
 ## Integration with html Middleware
 
 Combine the JSX and html middlewares for powerful templating.
-For in-depth details, consult the [html middleware documentation](mdc:docs/helpers/html).
+For in-depth details, consult the [html middleware documentation](/docs/helpers/html).
 
 ```tsx
 import { Hono } from 'hono'
@@ -1078,7 +1078,7 @@ export default app
 
 ## With JSX Renderer Middleware
 
-The [JSX Renderer Middleware](mdc:docs/middleware/builtin/jsx-renderer) allows you to create HTML pages more easily with the JSX.
+The [JSX Renderer Middleware](/docs/middleware/builtin/jsx-renderer) allows you to create HTML pages more easily with the JSX.
 
 ## Override type definitions
 
@@ -1173,7 +1173,7 @@ middleware 1 start
 middleware 1 end
 ```
 
-Note that if the handler or any middleware throws, hono will catch it and either pass it to [your app.onError() callback](mdc:docs/api/hono#error-handling) or automatically convert it to a 500 response before returning it up the chain of middleware. This means that next() will never throw, so there is no need to wrap it in a try/catch/finally.
+Note that if the handler or any middleware throws, hono will catch it and either pass it to [your app.onError() callback](/docs/api/hono#error-handling) or automatically convert it to a 500 response before returning it up the chain of middleware. This means that next() will never throw, so there is no need to wrap it in a try/catch/finally.
 
 ## Built-in Middleware
 
@@ -1243,7 +1243,7 @@ However, embedding middleware directly within `app.use()` can limit its reusabil
 middleware into different files.
 
 To ensure we don't lose type definitions for `context` and `next`, when separating middleware, we can use
-[`createMiddleware()`](mdc:docs/helpers/factory#createmiddleware) from Hono's factory. This also allows us to type-safely [access data we've `set` in `Context`](mdc:https:/hono.dev/docs/api/context#set-get) from downstream handlers.
+[`createMiddleware()`](/docs/helpers/factory#createmiddleware) from Hono's factory. This also allows us to type-safely [access data we've `set` in `Context`](https://hono.dev/docs/api/context#set-get) from downstream handlers.
 
 ```ts
 import { createMiddleware } from 'hono/factory'
@@ -1316,7 +1316,7 @@ app.get('/echo', echoMiddleware, (c) => {
 Built-in middleware does not depend on external modules, but third-party middleware can depend on third-party libraries.
 So with them, we may make a more complex application.
 
-We can explore a variety of [third-party middleware](mdc:https:/hono.dev/docs/middleware/third-party).
+We can explore a variety of [third-party middleware](https://hono.dev/docs/middleware/third-party).
 For example, we have GraphQL Server Middleware, Sentry Middleware, Firebase Auth Middleware, and others.
 
 
@@ -1332,14 +1332,14 @@ Contributions Welcome! You can contribute in the following ways.
 - Share - Share your thoughts on the Blog, X(Twitter), and others.
 - Make your application - Please try to use Hono.
 
-For more details, see [Contribution Guide](mdc:https:/github.com/honojs/hono/blob/main/docs/CONTRIBUTING.md).
+For more details, see [Contribution Guide](https://github.com/honojs/hono/blob/main/docs/CONTRIBUTING.md).
 
 ## Sponsoring
 
 You can sponsor Hono authors via the GitHub sponsor program.
 
-- [Sponsor @yusukebe on GitHub Sponsors](mdc:https:/github.com/sponsors/yusukebe)
-- [Sponsor @usualoma on GitHub Sponsors](mdc:https:/github.com/sponsors/usualoma)
+- [Sponsor @yusukebe on GitHub Sponsors](https://github.com/sponsors/yusukebe)
+- [Sponsor @usualoma on GitHub Sponsors](https://github.com/sponsors/usualoma)
 
 ## Other Resources
 
@@ -1350,21 +1350,21 @@ You can sponsor Hono authors via the GitHub sponsor program.
 
 # RPC
 
-The RPC feature allows sharing of the API specifications between the server and the client. 
+The RPC feature allows sharing of the API specifications between the server and the client.
 
 First, export the `typeof` your Hono app (commonly called `AppType`)—or just the routes you want available to the client—from your server code.
 
-By accepting `AppType` as a generic parameter, the Hono Client can infer both the input type(s) specified by the Validator, and the output type(s) emitted by handlers returning `c.json()`. 
+By accepting `AppType` as a generic parameter, the Hono Client can infer both the input type(s) specified by the Validator, and the output type(s) emitted by handlers returning `c.json()`.
 
 > [!NOTE]
-> At this time, responses returned from middleware are [not inferred by the client.](mdc:https:/github.com/honojs/hono/issues/2719)
+> At this time, responses returned from middleware are [not inferred by the client.](https://github.com/honojs/hono/issues/2719)
 
 > [!NOTE]  
-> For the RPC types to work properly in a monorepo, in both the Client's and Server's tsconfig.json files, set `"strict": true` in `compilerOptions`. [Read more.](mdc:https:/github.com/honojs/hono/issues/2270#issuecomment-2143745118)
+> For the RPC types to work properly in a monorepo, in both the Client's and Server's tsconfig.json files, set `"strict": true` in `compilerOptions`. [Read more.](https://github.com/honojs/hono/issues/2270#issuecomment-2143745118)
 
 ## Server
 
-All you need to do on the server side is to write a validator and create a variable `route`. The following example uses [Zod Validator](mdc:https:/github.com/honojs/middleware/tree/main/packages/zod-validator).
+All you need to do on the server side is to write a validator and create a variable `route`. The following example uses [Zod Validator](https://github.com/honojs/middleware/tree/main/packages/zod-validator).
 
 ```ts{1}
 const route = app.post(
@@ -1428,6 +1428,26 @@ if (res.ok) {
   const data = await res.json()
   console.log(data.message)
 }
+```
+
+### Cookies
+
+To make the client send cookies with every request, add `{ 'init': { 'credentials": 'include' } }` to the options when you're creating the client.
+
+```ts
+// client.ts
+const client = hc<AppType>('http://localhost:8787/', {
+  init: {
+    credentials: 'include',
+  },
+})
+
+// This request will now include any cookies you might have set
+const res = await client.posts.$get({
+  query: {
+    id: '123',
+  },
+})
 ```
 
 ## Status code
@@ -1591,7 +1611,7 @@ const res = await client.posts[':id'].$get({
 
 ### Include slashes
 
-`hc` function does not URL-encode the values of `param`. To include slashes in parameters, use [regular expressions](mdc:docs/api/routing#regexp).
+`hc` function does not URL-encode the values of `param`. To include slashes in parameters, use [regular expressions](/docs/api/routing#regexp).
 
 ```ts
 // client.ts
@@ -1600,9 +1620,8 @@ const res = await client.posts[':id'].$get({
 const res = await client.posts[':id'].$get({
   param: {
     id: '123/456',
-  }
+  },
 })
-
 
 // server.ts
 const route = app.get(
@@ -1732,23 +1751,25 @@ You can upload files using a form body:
 // client
 const res = await client.user.picture.$put({
   form: {
-    file: new File([fileToUpload], filename, { type: fileToUpload.type })
+    file: new File([fileToUpload], filename, {
+      type: fileToUpload.type,
+    }),
   },
-});
+})
 ```
 
 ```ts
 // server
 const route = app.put(
-  "/user/picture",
+  '/user/picture',
   zValidator(
-    "form",
+    'form',
     z.object({
       file: z.instanceof(File),
-    }),
-  ),
+    })
+  )
   // ...
-);
+)
 ```
 
 ## Custom `fetch` method
@@ -1788,7 +1809,7 @@ type ResType = InferResponseType<typeof $post>
 
 ## Using SWR
 
-You can also use a React Hook library such as [SWR](mdc:https:/swr.vercel.app).
+You can also use a React Hook library such as [SWR](https://swr.vercel.app).
 
 ```tsx
 import useSWR from 'swr'
@@ -1826,7 +1847,7 @@ export default App
 
 ## Using RPC with larger applications
 
-In the case of a larger application, such as the example mentioned in [Building a larger application](mdc:docs/guides/best-practices#building-a-larger-application), you need to be careful about the type of inference.
+In the case of a larger application, such as the example mentioned in [Building a larger application](/docs/guides/best-practices#building-a-larger-application), you need to be careful about the type of inference.
 A simple way to do this is to chain the handlers so that the types are always inferred.
 
 ```ts
@@ -1906,11 +1927,11 @@ However, we have some tips to mitigate this issue.
 
 If your backend is separate from the frontend and lives in a different directory, you need to ensure that the Hono versions match. If you use one Hono version on the backend and another on the frontend, you'll run into issues such as "_Type instantiation is excessively deep and possibly infinite_".
 
-![hono-version-mismatch](mdc:https:/github.com/user-attachments/assets/e4393c80-29dd-408d-93ab-d55c11ccca05)
+![](https://github.com/user-attachments/assets/e4393c80-29dd-408d-93ab-d55c11ccca05)
 
 #### TypeScript project references
 
-Like in the case of [Hono version mismatch](mdc:#hono-version-mismatch), you'll run into issues if your backend and frontend are separate. If you want to access code from the backend (`AppType`, for example) on the frontend, you need to use [project references](mdc:https:/www.typescriptlang.org/docs/handbook/project-references.html). TypeScript's project references allow one TypeScript codebase to access and use code from another TypeScript codebase. _(source: [Hono RPC And TypeScript Project References](mdc:https:/catalins.tech/hono-rpc-in-monorepos))_.
+Like in the case of [Hono version mismatch](#hono-version-mismatch), you'll run into issues if your backend and frontend are separate. If you want to access code from the backend (`AppType`, for example) on the frontend, you need to use [project references](https://www.typescriptlang.org/docs/handbook/project-references.html). TypeScript's project references allow one TypeScript codebase to access and use code from another TypeScript codebase. _(source: [Hono RPC And TypeScript Project References](https://catalins.tech/hono-rpc-in-monorepos/))_.
 
 #### Compile your code before using it (recommended)
 
@@ -1942,7 +1963,7 @@ const res = await client.posts.$post({
 })
 ```
 
-If your project is a monorepo, this solution does fit well. Using a tool like [`turborepo`](mdc:https:/turbo.build/repo/docs), you can easily separate the server project and the client project and get better integration managing dependencies between them. Here is [a working example](mdc:https:/github.com/m-shaka/hono-rpc-perf-tips-example).
+If your project is a monorepo, this solution does fit well. Using a tool like [`turborepo`](https://turbo.build/repo/docs), you can easily separate the server project and the client project and get better integration managing dependencies between them. Here is [a working example](https://github.com/m-shaka/hono-rpc-perf-tips-example).
 
 You can also coordinate your build process manually with tools like `concurrently` or `npm-run-all`.
 
@@ -1960,7 +1981,7 @@ Specifying just single type argument make a difference in performance, while it 
 
 #### Split your app and client into multiple files
 
-As described in [Using RPC with larger applications](mdc:#using-rpc-with-larger-applications), you can split your app into multiple apps. You can also create a client for each app:
+As described in [Using RPC with larger applications](#using-rpc-with-larger-applications), you can split your app into multiple apps. You can also create a client for each app:
 
 ```ts
 // authors-cli.ts
@@ -1989,7 +2010,7 @@ The way to create a test environment differs from each runtime, but the basic st
 In this section, let's test with Cloudflare Workers and [Vitest].
 
 ::: tip
-Cloudflare recommends using [Vitest] with [@cloudflare/vitest-pool-workers](mdc:https:/www.npmjs.com/package/@cloudflare/vitest-pool-workers). For more details, please refer to [Vitest integration](mdc:https:/developers.cloudflare.com/workers/testing/vitest-integration) in the Cloudflare Workers docs.
+Cloudflare recommends using [Vitest] with [@cloudflare/vitest-pool-workers](https://www.npmjs.com/package/@cloudflare/vitest-pool-workers). For more details, please refer to [Vitest integration](https://developers.cloudflare.com/workers/testing/vitest-integration/) in the Cloudflare Workers docs.
 :::
 
 ## Request and Response
@@ -1998,7 +2019,7 @@ All you do is create a Request and pass it to the Hono application to validate t
 And, you can use `app.request` the useful method.
 
 ::: tip
-For a typed test client see the [testing helper](mdc:docs/helpers/testing).
+For a typed test client see the [testing helper](/docs/helpers/testing).
 :::
 
 For example, consider an application that provides the following REST API.
@@ -2103,7 +2124,7 @@ In this way, you can test it as like an End-to-End.
 
 ## Env
 
-To set `c.env` for testing, you can pass it as the 3rd parameter to `app.request`. This is useful for mocking values like [Cloudflare Workers Bindings](mdc:https:/hono.dev/getting-started/cloudflare-workers#bindings):
+To set `c.env` for testing, you can pass it as the 3rd parameter to `app.request`. This is useful for mocking values like [Cloudflare Workers Bindings](https://hono.dev/getting-started/cloudflare-workers#bindings):
 
 ```ts
 const MOCK_ENV = {
@@ -2178,7 +2199,7 @@ When you validate `json`, the request _must_ contain a `Content-Type: applicatio
 otherwise the request body will not be parsed and you will receive a warning.
 
 It is important to set the `content-type` header when testing using
-[`app.request()`](mdc:../api/request.md).
+[`app.request()`](../api/request.md).
 
 Given an application like this.
 
@@ -2287,7 +2308,7 @@ app.post(
 
 ## With Zod
 
-You can use [Zod](mdc:https:/zod.dev), one of third-party validators.
+You can use [Zod](https://zod.dev), one of third-party validators.
 We recommend using a third-party validator.
 
 Install from the Npm registry.
@@ -2353,7 +2374,7 @@ const route = app.post(
 
 ## Zod Validator Middleware
 
-You can use the [Zod Validator Middleware](mdc:https:/github.com/honojs/middleware/tree/main/packages/zod-validator) to make it even easier.
+You can use the [Zod Validator Middleware](https://github.com/honojs/middleware/tree/main/packages/zod-validator) to make it even easier.
 
 ::: code-group
 
@@ -2402,9 +2423,9 @@ const route = app.post(
 
 # Alibaba Cloud Function Compute
 
-[Alibaba Cloud Function Compute](mdc:https:/www.alibabacloud.com/en/product/function-compute) is a fully managed, event-driven compute service. Function Compute allows you to focus on writing and uploading code without having to manage infrastructure such as servers.
+[Alibaba Cloud Function Compute](https://www.alibabacloud.com/en/product/function-compute) is a fully managed, event-driven compute service. Function Compute allows you to focus on writing and uploading code without having to manage infrastructure such as servers.
 
-This guide uses a third-party adapter [rwv/hono-alibaba-cloud-fc3-adapter](mdc:https:/github.com/rwv/hono-alibaba-cloud-fc3-adapter) to run Hono on Alibaba Cloud Function Compute.
+This guide uses a third-party adapter [rwv/hono-alibaba-cloud-fc3-adapter](https://github.com/rwv/hono-alibaba-cloud-fc3-adapter) to run Hono on Alibaba Cloud Function Compute.
 
 ## 1. Setup
 
@@ -2465,7 +2486,7 @@ export const handler = handle(app)
 
 ## 3. Setup serverless-devs
 
-> [serverless-devs](mdc:https:/github.com/Serverless-Devs/Serverless-Devs) is an open source and open serverless developer platform dedicated to providing developers with a powerful tool chain system. Through this platform, developers can not only experience multi cloud serverless products with one click and rapidly deploy serverless projects, but also manage projects in the whole life cycle of serverless applications, and combine serverless devs with other tools / platforms very simply and quickly to further improve the efficiency of R & D, operation and maintenance.
+> [serverless-devs](https://github.com/Serverless-Devs/Serverless-Devs) is an open source and open serverless developer platform dedicated to providing developers with a powerful tool chain system. Through this platform, developers can not only experience multi cloud serverless products with one click and rapidly deploy serverless projects, but also manage projects in the whole life cycle of serverless applications, and combine serverless devs with other tools / platforms very simply and quickly to further improve the efficiency of R & D, operation and maintenance.
 
 Add the Alibaba Cloud AccessKeyID & AccessKeySecret
 
@@ -2530,7 +2551,7 @@ Hono works on AWS Lambda with the Node.js 18+ environment.
 ## 1. Setup
 
 When creating the application on AWS Lambda,
-[CDK](mdc:https:/docs.aws.amazon.com/cdk/v2/guide/home.html)
+[CDK](https://docs.aws.amazon.com/cdk/v2/guide/home.html)
 is useful to setup the functions such as IAM Role, API Gateway, and others.
 
 Initialize your project with the `cdk` CLI.
@@ -2542,6 +2563,7 @@ mkdir my-app
 cd my-app
 cdk init app -l typescript
 npm i hono
+npm i -D esbuild
 mkdir lambda
 touch lambda/index.ts
 ```
@@ -2551,6 +2573,7 @@ mkdir my-app
 cd my-app
 cdk init app -l typescript
 yarn add hono
+yarn add -D esbuild
 mkdir lambda
 touch lambda/index.ts
 ```
@@ -2560,6 +2583,7 @@ mkdir my-app
 cd my-app
 cdk init app -l typescript
 pnpm add hono
+pnpm add -D esbuild
 mkdir lambda
 touch lambda/index.ts
 ```
@@ -2569,6 +2593,7 @@ mkdir my-app
 cd my-app
 cdk init app -l typescript
 bun add hono
+bun add -D esbuild
 mkdir lambda
 touch lambda/index.ts
 ```
@@ -2592,13 +2617,12 @@ export const handler = handle(app)
 
 ## 3. Deploy
 
-Edit `lib/cdk-stack.ts`.
+Edit `lib/my-app-stack.ts`.
 
 ```ts
 import * as cdk from 'aws-cdk-lib'
 import { Construct } from 'constructs'
 import * as lambda from 'aws-cdk-lib/aws-lambda'
-import * as apigw from 'aws-cdk-lib/aws-apigateway'
 import { NodejsFunction } from 'aws-cdk-lib/aws-lambda-nodejs'
 
 export class MyAppStack extends cdk.Stack {
@@ -2608,13 +2632,13 @@ export class MyAppStack extends cdk.Stack {
     const fn = new NodejsFunction(this, 'lambda', {
       entry: 'lambda/index.ts',
       handler: 'handler',
-      runtime: lambda.Runtime.NODEJS_20_X,
+      runtime: lambda.Runtime.NODEJS_22_X,
     })
-    fn.addFunctionUrl({
+    const fnUrl = fn.addFunctionUrl({
       authType: lambda.FunctionUrlAuthType.NONE,
     })
-    new apigw.LambdaRestApi(this, 'myapi', {
-      handler: fn,
+    new cdk.CfnOutput(this, 'lambdaUrl', {
+      value: fnUrl.url!
     })
   }
 }
@@ -2715,7 +2739,7 @@ export const handler = handle(app)
 
 ## Lambda response streaming
 
-By changing the invocation mode of AWS Lambda, you can achieve [Streaming Response](mdc:https:/aws.amazon.com/blogs/compute/introducing-aws-lambda-response-streaming).
+By changing the invocation mode of AWS Lambda, you can achieve [Streaming Response](https://aws.amazon.com/blogs/compute/introducing-aws-lambda-response-streaming/).
 
 ```diff
 fn.addFunctionUrl({
@@ -2747,15 +2771,15 @@ export const handler = streamHandle(app)
 
 # Azure Functions
 
-[Azure Functions](mdc:https:/azure.microsoft.com/en-us/products/functions) is a serverless platform from Microsoft Azure. You can run your code in response to events, and it automatically manages the underlying compute resources for you.
+[Azure Functions](https://azure.microsoft.com/en-us/products/functions) is a serverless platform from Microsoft Azure. You can run your code in response to events, and it automatically manages the underlying compute resources for you.
 
-Hono was not designed for Azure Functions at first. But with [Azure Functions Adapter](mdc:https:/github.com/Marplex/hono-azurefunc-adapter) it can run on it as well.
+Hono was not designed for Azure Functions at first. But with [Azure Functions Adapter](https://github.com/Marplex/hono-azurefunc-adapter) it can run on it as well.
 
 It works with Azure Functions **V4** running on Node.js 18 or above.
 
 ## 1. Install CLI
 
-To create an Azure Function, you must first install [Azure Functions Core Tools](mdc:https:/learn.microsoft.com/en-us/azure/azure-functions/create-first-function-cli-typescript?pivots=nodejs-model-v4#install-the-azure-functions-core-tools).
+To create an Azure Function, you must first install [Azure Functions Core Tools](https://learn.microsoft.com/en-us/azure/azure-functions/create-first-function-cli-typescript?pivots=nodejs-model-v4#install-the-azure-functions-core-tools).
 
 On macOS
 
@@ -2766,7 +2790,7 @@ brew install azure-functions-core-tools@4
 
 Follow this link for other OS:
 
-- [Install the Azure Functions Core Tools | Microsoft Learn](mdc:https:/learn.microsoft.com/en-us/azure/azure-functions/create-first-function-cli-typescript?pivots=nodejs-model-v4#install-the-azure-functions-core-tools)
+- [Install the Azure Functions Core Tools | Microsoft Learn](https://learn.microsoft.com/en-us/azure/azure-functions/create-first-function-cli-typescript?pivots=nodejs-model-v4#install-the-azure-functions-core-tools)
 
 ## 2. Setup
 
@@ -2875,7 +2899,7 @@ bun run start
 ## 5. Deploy
 
 ::: info
-Before you can deploy to Azure, you need to create some resources in your cloud infrastructure. Please visit the Microsoft documentation on [Create supporting Azure resources for your function](mdc:https:/learn.microsoft.com/en-us/azure/azure-functions/create-first-function-cli-typescript?pivots=nodejs-model-v4&tabs=windows%2Cazure-cli%2Cbrowser#create-supporting-azure-resources-for-your-function)
+Before you can deploy to Azure, you need to create some resources in your cloud infrastructure. Please visit the Microsoft documentation on [Create supporting Azure resources for your function](https://learn.microsoft.com/en-us/azure/azure-functions/create-first-function-cli-typescript?pivots=nodejs-model-v4&tabs=windows%2Cazure-cli%2Cbrowser#create-supporting-azure-resources-for-your-function)
 :::
 
 Build the project for deployment:
@@ -3083,7 +3107,7 @@ app.delete('/posts/:id', (c) =>
 
 ## Return HTML
 
-You can write HTML with [the html Helper](mdc:docs/helpers/html) or using [JSX](mdc:docs/guides/jsx) syntax. If you want to use JSX, rename the file to `src/index.tsx` and configure it (check with each runtime as it is different). Below is an example using JSX.
+You can write HTML with [the html Helper](/docs/helpers/html) or using [JSX](/docs/guides/jsx) syntax. If you want to use JSX, rename the file to `src/index.tsx` and configure it (check with each runtime as it is different). Below is an example using JSX.
 
 ```tsx
 const View = () => {
@@ -3103,7 +3127,7 @@ app.get('/page', (c) => {
 
 ## Return raw Response
 
-You can also return the raw [Response](mdc:https:/developer.mozilla.org/en-US/docs/Web/API/Response).
+You can also return the raw [Response](https://developer.mozilla.org/en-US/docs/Web/API/Response).
 
 ```ts
 app.get('/', () => {
@@ -3163,12 +3187,12 @@ Please see the page for the exact platform you want to use to create your applic
 
 # Bun
 
-[Bun](mdc:https:/bun.sh) is another JavaScript runtime. It's not Node.js or Deno. Bun includes a trans compiler, we can write the code with TypeScript.
+[Bun](https://bun.sh) is another JavaScript runtime. It's not Node.js or Deno. Bun includes a trans compiler, we can write the code with TypeScript.
 Hono also works on Bun.
 
 ## 1. Install Bun
 
-To install `bun` command, follow the instruction in [the official web site](mdc:https:/bun.sh).
+To install `bun` command, follow the instruction in [the official web site](https://bun.sh).
 
 ## 2. Setup
 
@@ -3368,7 +3392,7 @@ bun test index.test.ts
 
 # Cloudflare Pages
 
-[Cloudflare Pages](mdc:https:/pages.cloudflare.com) is an edge platform for full-stack web applications.
+[Cloudflare Pages](https://pages.cloudflare.com) is an edge platform for full-stack web applications.
 It serves static files and dynamic content provided by Cloudflare Workers.
 
 Hono fully supports Cloudflare Pages.
@@ -3514,7 +3538,7 @@ bun run deploy
 
 ### Deploy via the Cloudflare dashboard with GitHub
 
-1. Log in to the [Cloudflare dashboard](mdc:https:/dash.cloudflare.com) and select your account.
+1. Log in to the [Cloudflare dashboard](https://dash.cloudflare.com) and select your account.
 2. In Account Home, select Workers & Pages > Create application > Pages > Connect to Git.
 3. Authorize your GitHub account, and select the repository. In Set up builds and deployments, provide the following information:
 
@@ -3679,7 +3703,7 @@ vite build --mode client && vite build
 
 ## Cloudflare Pages Middleware
 
-Cloudflare Pages uses its own [middleware](mdc:https:/developers.cloudflare.com/pages/functions/middleware) system that is different from Hono's middleware. You can enable it by exporting `onRequest` in a file named `_middleware.ts` like this:
+Cloudflare Pages uses its own [middleware](https://developers.cloudflare.com/pages/functions/middleware/) system that is different from Hono's middleware. You can enable it by exporting `onRequest` in a file named `_middleware.ts` like this:
 
 ```ts
 // functions/_middleware.ts
@@ -3701,7 +3725,7 @@ export const onRequest = handleMiddleware(async (c, next) => {
 })
 ```
 
-You can also use built-in and 3rd party middleware for Hono. For example, to add Basic Authentication, you can use [Hono's Basic Authentication Middleware](mdc:docs/middleware/builtin/basic-auth).
+You can also use built-in and 3rd party middleware for Hono. For example, to add Basic Authentication, you can use [Hono's Basic Authentication Middleware](/docs/middleware/builtin/basic-auth).
 
 ```ts
 // functions/_middleware.ts
@@ -3732,7 +3756,7 @@ export const onRequest = [
 
 ### Accessing `EventContext`
 
-You can access [`EventContext`](mdc:https:/developers.cloudflare.com/pages/functions/api-reference/#eventcontext) object via `c.env` in `handleMiddleware`.
+You can access [`EventContext`](https://developers.cloudflare.com/pages/functions/api-reference/#eventcontext) object via `c.env` in `handleMiddleware`.
 
 ```ts
 // functions/_middleware.ts
@@ -3761,7 +3785,7 @@ type Env = {
   }
 }
 
-const app = new Hono<Env>()
+const app = new Hono<Env>().basePath("/api");
 
 app.get('/hello', (c) => {
   return c.json({
@@ -3775,9 +3799,9 @@ export const onRequest = handle(app)
 
 # Cloudflare Workers
 
-[Cloudflare Workers](mdc:https:/workers.cloudflare.com) is a JavaScript edge runtime on Cloudflare CDN.
+[Cloudflare Workers](https://workers.cloudflare.com) is a JavaScript edge runtime on Cloudflare CDN.
 
-You can develop the application locally and publish it with a few commands using [Wrangler](mdc:https:/developers.cloudflare.com/workers/wrangler).
+You can develop the application locally and publish it with a few commands using [Wrangler](https://developers.cloudflare.com/workers/wrangler/).
 Wrangler includes trans compiler, so we can write the code with TypeScript.
 
 Let’s make your first application for Cloudflare Workers with Hono.
@@ -3878,10 +3902,10 @@ bun run dev
 ### Change port number
 
 If you need to change the port number you can follow the instructions here to update `wrangler.toml` / `wrangler.json` / `wrangler.jsonc` files:
-[Wrangler Configuration](mdc:https:/developers.cloudflare.com/workers/wrangler/configuration/#local-development-settings)
+[Wrangler Configuration](https://developers.cloudflare.com/workers/wrangler/configuration/#local-development-settings)
 
 Or, you can follow the instructions here to set CLI options:
-[Wrangler CLI](mdc:https:/developers.cloudflare.com/workers/wrangler/commands/#dev)
+[Wrangler CLI](https://developers.cloudflare.com/workers/wrangler/commands/#dev)
 
 ## 4. Deploy
 
@@ -3940,7 +3964,7 @@ export default {
 
 ## Serve static files
 
-If you want to serve static files, you can use [the Static Assets feature](mdc:https:/developers.cloudflare.com/workers/static-assets) of Cloudflare Workers. Specify the directory for the files in `wrangler.toml`:
+If you want to serve static files, you can use [the Static Assets feature](https://developers.cloudflare.com/workers/static-assets/) of Cloudflare Workers. Specify the directory for the files in `wrangler.toml`:
 
 ```toml
 assets = { directory = "public" }
@@ -3987,7 +4011,7 @@ bun add --dev @cloudflare/workers-types
 ## Testing
 
 For testing, we recommend using `@cloudflare/vitest-pool-workers`.
-Refer to [examples](mdc:https:/github.com/honojs/examples) for setting it up.
+Refer to [examples](https://github.com/honojs/examples) for setting it up.
 
 If there is the application below.
 
@@ -4060,7 +4084,7 @@ The same is applied to Bearer Authentication Middleware, JWT Authentication, or 
 
 ## Deploy from GitHub Actions
 
-Before deploying code to Cloudflare via CI, you need a Cloudflare token. You can manage it from [User API Tokens](mdc:https:/dash.cloudflare.com/profile/api-tokens).
+Before deploying code to Cloudflare via CI, you need a Cloudflare token. You can manage it from [User API Tokens](https://dash.cloudflare.com/profile/api-tokens).
 
 If it's a newly created token, select the **Edit Cloudflare Workers** template, if you already have another token, make sure the token has the corresponding permissions(No, token permissions are not shared between Cloudflare Pages and Cloudflare Workers).
 
@@ -4134,7 +4158,7 @@ Before you deploy your project to Cloudflare, remember to set the environment va
 
 # Deno
 
-[Deno](mdc:https:/deno.com) is a JavaScript runtime built on V8. It's not Node.js.
+[Deno](https://deno.com/) is a JavaScript runtime built on V8. It's not Node.js.
 Hono also works on Deno.
 
 You can use Hono, write the code with TypeScript, run the application with the `deno` command, and deploy it to "Deno Deploy".
@@ -4142,7 +4166,7 @@ You can use Hono, write the code with TypeScript, run the application with the `
 ## 1. Install Deno
 
 First, install `deno` command.
-Please refer to [the official document](mdc:https:/docs.deno.com/runtime/manual/getting_started/installation).
+Please refer to [the official document](https://docs.deno.com/runtime/manual/getting_started/installation).
 
 ## 2. Setup
 
@@ -4305,12 +4329,12 @@ app.get(
 Deno Deploy is an edge runtime platform for Deno.
 We can publish the application world widely on Deno Deploy.
 
-Hono also supports Deno Deploy. Please refer to [the official document](mdc:https:/docs.deno.com/deploy/manual).
+Hono also supports Deno Deploy. Please refer to [the official document](https://docs.deno.com/deploy/manual/).
 
 ## Testing
 
 Testing the application on Deno is easy.
-You can write with `Deno.test` and use `assert` or `assertEquals` from [@std/assert](mdc:https:/jsr.io/@std/assert).
+You can write with `Deno.test` and use `assert` or `assertEquals` from [@std/assert](https://jsr.io/@std/assert).
 
 ```sh
 deno add jsr:@std/assert
@@ -4365,9 +4389,9 @@ If you want to use Third-party Middleware such as `npm:@hono/zod-validator` with
 
 # Fastly Compute
 
-[Fastly Compute](mdc:https:/www.fastly.com/products/edge-compute) is an advanced edge computing system that runs your code, in your favorite language, on our global edge network. Hono also works on Fastly Compute.
+[Fastly Compute](https://www.fastly.com/products/edge-compute) is an advanced edge computing system that runs your code, in your favorite language, on our global edge network. Hono also works on Fastly Compute.
 
-You can develop the application locally and publish it with a few commands using [Fastly CLI](mdc:https:/www.fastly.com/documentation/reference/tools/cli).
+You can develop the application locally and publish it with a few commands using [Fastly CLI](https://www.fastly.com/documentation/reference/tools/cli/).
 
 ## 1. Setup
 
@@ -4467,7 +4491,7 @@ bun run start
 
 To build and deploy your application to your Fastly account, type the following command. The first time you deploy the application, you will be prompted to create a new service in your account.
 
-If you don't have an account yet, you must [create your Fastly account](mdc:https:/www.fastly.com/signup).
+If you don't have an account yet, you must [create your Fastly account](https://www.fastly.com/signup/).
 
 ::: code-group
 
@@ -4490,16 +4514,152 @@ bun run deploy
 :::
 
 
+# Google Cloud Run
+
+[Google Cloud Run](https://cloud.google.com/run) is a serverless platform built by Google Cloud. You can run your code in response to events and Google automatically manages the underlying compute resources for you.
+
+Google Cloud Run uses containers to run your service. This means you can use any runtime you like (E.g., Deno or Bun) by providing a Dockerfile. If no Dockerfile is provided Google Cloud Run will use the default Nodejs buildpack.
+
+This guide assumes you already have a Google Cloud account and a billing account.
+
+## 1. Install the CLI
+
+When working with Google Cloud Platform it is easiest to work with the [gcloud CLI](https://cloud.google.com/sdk/docs/install).
+
+For example, on MacOS using Homebrew:
+
+```sh
+brew install --cask google-cloud-sdk
+```
+
+Authenticate with the CLI.
+
+```sh
+gcloud auth login
+```
+
+## 2. Project setup
+
+Create a project. Accept the auto-generated project ID at the prompt.
+
+```sh
+gcloud projects create --set-as-default --name="my app"
+```
+
+Create environment variables for your project ID and project number for easy reuse. It may take ~30 seconds before the project successfully returns with the `gcloud projects list` command.
+
+```sh
+PROJECT_ID=$(gcloud projects list \
+    --format='value(projectId)' \
+    --filter='name="my app"')
+
+PROJECT_NUMBER=$(gcloud projects list \
+    --format='value(projectNumber)' \
+    --filter='name="my app"')
+
+echo $PROJECT_ID $PROJECT_NUMBER
+```
+
+Find your billing account ID.
+
+```sh
+gcloud billing accounts list
+```
+
+Add your billing account from the prior command to the project.
+
+```sh
+gcloud billing projects link $PROJECT_ID \
+    --billing-account=[billing_account_id]
+```
+
+Enable the required APIs.
+
+```sh
+gcloud services enable run.googleapis.com \
+    cloudbuild.googleapis.com
+```
+
+Update the service account permissions to have access to Cloud Build.
+
+```sh
+gcloud projects add-iam-policy-binding $PROJECT_ID \
+    --member=serviceAccount:$PROJECT_NUMBER-compute@developer.gserviceaccount.com \
+    --role=roles/run.builder
+```
+
+## 3. Hello World
+
+Start your project with "create-hono" command. Select `nodejs`.
+
+```sh
+npm create hono@latest my-app
+```
+
+Move to `my-app` and install the dependencies.
+
+```sh
+cd my-app
+npm i
+```
+
+Update the port in `src/index.ts` to be `8080`.
+
+<!-- prettier-ignore -->
+```ts
+import { serve } from '@hono/node-server'
+import { Hono } from 'hono'
+
+const app = new Hono()
+
+app.get('/', (c) => {
+  return c.text('Hello Hono!')
+})
+
+serve({
+  fetch: app.fetch,
+  port: 3000 // [!code --]
+  port: 8080 // [!code ++]
+}, (info) => {
+  console.log(`Server is running on http://localhost:${info.port}`)
+})
+```
+
+Run the development server locally. Then, access http://localhost:8080 in your Web browser.
+
+```sh
+npm run dev
+```
+
+## 4. Deploy
+
+Start the deployment and follow the interactive prompts (E.g., select a region).
+
+```sh
+gcloud run deploy my-app --source . --allow-unauthenticated
+```
+
+## Changing runtimes
+
+If you want to deploy using Deno or Bun runtimes (or a customised Nodejs container), add a `Dockerfile` (and optionally `.dockerignore`) with your desired environment.
+
+For information on containerizing please refer to:
+
+- [Nodejs](/docs/getting-started/nodejs#building-deployment)
+- [Bun](https://bun.sh/guides/ecosystem/docker)
+- [Deno](https://docs.deno.com/examples/google_cloud_run_tutorial)
+
+
 # Lambda@Edge
 
-[Lambda@Edge](mdc:https:/aws.amazon.com/lambda/edge) is a serverless platform by Amazon Web Services. It allows you to run Lambda functions at Amazon CloudFront's edge locations, enabling you to customize behaviors for HTTP requests/responses.
+[Lambda@Edge](https://aws.amazon.com/lambda/edge/) is a serverless platform by Amazon Web Services. It allows you to run Lambda functions at Amazon CloudFront's edge locations, enabling you to customize behaviors for HTTP requests/responses.
 
 Hono supports Lambda@Edge with the Node.js 18+ environment.
 
 ## 1. Setup
 
 When creating the application on Lambda@Edge,
-[CDK](mdc:https:/docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-cdk.html)
+[CDK](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-cdk.html)
 is useful to setup the functions such as CloudFront, IAM Role, API Gateway, and others.
 
 Initialize your project with the `cdk` CLI.
@@ -4656,9 +4816,9 @@ export const handler = handle(app)
 
 # Netlify
 
-Netlify provides static site hosting and serverless backend services. [Edge Functions](mdc:https:/docs.netlify.com/edge-functions/overview) enables us to make the web pages dynamic.
+Netlify provides static site hosting and serverless backend services. [Edge Functions](https://docs.netlify.com/edge-functions/overview/) enables us to make the web pages dynamic.
 
-Edge Functions support writing in Deno and TypeScript, and deployment is made easy through the [Netlify CLI](mdc:https:/docs.netlify.com/cli/get-started). With Hono, you can create the application for Netlify Edge Functions.
+Edge Functions support writing in Deno and TypeScript, and deployment is made easy through the [Netlify CLI](https://docs.netlify.com/cli/get-started/). With Hono, you can create the application for Netlify Edge Functions.
 
 ## 1. Setup
 
@@ -4756,9 +4916,9 @@ export default handle(app)
 
 # Node.js
 
-[Node.js](mdc:https:/nodejs.org) is an open-source, cross-platform JavaScript runtime environment.
+[Node.js](https://nodejs.org/) is an open-source, cross-platform JavaScript runtime environment.
 
-Hono was not designed for Node.js at first. But with a [Node.js Adapter](mdc:https:/github.com/honojs/node-server) it can run on Node.js as well.
+Hono was not designed for Node.js at first. But with a [Node.js Adapter](https://github.com/honojs/node-server) it can run on Node.js as well.
 
 ::: info
 It works on Node.js versions greater than 18.x. The specific required Node.js versions are as follows:
@@ -4837,6 +4997,27 @@ const app = new Hono()
 app.get('/', (c) => c.text('Hello Node.js!'))
 
 serve(app)
+```
+
++If you want to gracefully shut down the server, write it like this:
+
+```ts
+const server = serve(app)
+
+// graceful shutdown
+process.on("SIGINT", () => {
+  server.close()
+  process.exit(0)
+})
+process.on("SIGTERM", () => {
+  server.close((err) => {
+    if (err) {
+      console.error(err)
+      process.exit(1)
+    }
+    process.exit(0)
+  })
+})
 ```
 
 ## 3. Run
@@ -4944,7 +5125,7 @@ app.get(
 
 ## http2
 
-You can run hono on a [Node.js http2 Server](mdc:https:/nodejs.org/api/http2.html).
+You can run hono on a [Node.js http2 Server](https://nodejs.org/api/http2.html).
 
 ### unencrypted http2
 
@@ -4975,21 +5156,34 @@ const server = serve({
 
 ## Building & Deployment
 
-Complete the following steps to build a simple Hono app. Apps with a front-end framework may need to use [Hono's Vite plugins](mdc:https:/github.com/honojs/vite-plugins).
+::: code-group
 
-1. Add `"outDir": "./dist"` to the `compilerOptions` section `tsconfig.json`.
-2. Add `"exclude": ["node_modules"]` to `tsconfig.json`.
-3. Add `"build": "tsc"` to `script` section of `package.json`.
-4. Run `npm install typescript --save-dev`.
-5. Add `"type": "module"` to `package.json`.
-6. Run `npm run build`!
+```sh [npm]
+npm run build
+```
+
+```sh [yarn]
+yarn run build
+```
+
+```sh [pnpm]
+pnpm run build
+```
+
+```sh [bun]
+bun run build
+```
+
+::: info
+Apps with a front-end framework may need to use [Hono's Vite plugins](https://github.com/honojs/vite-plugins).
+:::
 
 ### Dockerfile
 
-Here is an example of a Dockerfile. You must complete steps 1-5 above before this build and deployment process will work.
+Here is an example of a nodejs Dockerfile.
 
 ```Dockerfile
-FROM node:20-alpine AS base
+FROM node:22-alpine AS base
 
 FROM base AS builder
 
@@ -5021,9 +5215,9 @@ CMD ["node", "/app/dist/index.js"]
 
 # Service Worker
 
-[Service Worker](mdc:https:/developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) is a script that runs in the background of the browser to handle tasks like caching and push notifications. Using a Service Worker adapter, you can run applications made with Hono as [FetchEvent](mdc:https:/developer.mozilla.org/en-US/docs/Web/API/FetchEvent) handler within the browser.
+[Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) is a script that runs in the background of the browser to handle tasks like caching and push notifications. Using a Service Worker adapter, you can run applications made with Hono as [FetchEvent](https://developer.mozilla.org/en-US/docs/Web/API/FetchEvent) handler within the browser.
 
-This page shows an example of creating a project using [Vite](mdc:https:/vitejs.dev).
+This page shows an example of creating a project using [Vite](https://vitejs.dev/).
 
 ## 1. Setup
 
@@ -5176,9 +5370,9 @@ By default, the development server will run on port `5173`. Access `http://local
 
 # Supabase Edge Functions
 
-[Supabase](mdc:https:/supabase.com) is an open-source alternative to Firebase, offering a suite of tools similar to Firebase's capabilities, including database, authentication, storage, and now, serverless functions.
+[Supabase](https://supabase.com/) is an open-source alternative to Firebase, offering a suite of tools similar to Firebase's capabilities, including database, authentication, storage, and now, serverless functions.
 
-Supabase Edge Functions are server-side TypeScript functions that are distributed globally, running closer to your users for improved performance. These functions are developed using [Deno](mdc:https:/deno.com), which brings several benefits, including improved security and a modern JavaScript/TypeScript runtime.
+Supabase Edge Functions are server-side TypeScript functions that are distributed globally, running closer to your users for improved performance. These functions are developed using [Deno](https://deno.com/), which brings several benefits, including improved security and a modern JavaScript/TypeScript runtime.
 
 Here's how you can get started with Supabase Edge Functions:
 
@@ -5186,7 +5380,7 @@ Here's how you can get started with Supabase Edge Functions:
 
 ### Prerequisites
 
-Before you begin, make sure you have the Supabase CLI installed. If you haven't installed it yet, follow the instructions in the [official documentation](mdc:https:/supabase.com/docs/guides/cli/getting-started).
+Before you begin, make sure you have the Supabase CLI installed. If you haven't installed it yet, follow the instructions in the [official documentation](https://supabase.com/docs/guides/cli/getting-started).
 
 ### Creating a New Project
 
@@ -5264,7 +5458,7 @@ supabase functions deploy hello-world
 
 ```
 
-For more deployment methods, visit the Supabase documentation on [Deploying to Production](mdc:https:/supabase.com/docs/guides/functions/deploy).
+For more deployment methods, visit the Supabase documentation on [Deploying to Production](https://supabase.com/docs/guides/functions/deploy).
 
 
 # Vercel
@@ -5273,7 +5467,7 @@ Vercel is the platform for frontend developers, providing the speed and reliabil
 
 Next.js is a flexible React framework that gives you building blocks to create fast web applications.
 
-In Next.js, [Edge Functions](mdc:https:/vercel.com/docs/concepts/functions/edge-functions) allows you to create dynamic APIs on Edge Runtime such as Vercel.
+In Next.js, [Edge Functions](https://vercel.com/docs/concepts/functions/edge-functions) allows you to create dynamic APIs on Edge Runtime such as Vercel.
 With Hono, you can write APIs with the same syntax as other runtimes and use many middleware.
 
 ## 1. Setup
@@ -5334,7 +5528,7 @@ bun i
 
 ## 2. Hello World
 
-If you use the App Router, Edit `app/api/[[...route]]/route.ts`. Refer to the [Supported HTTP Methods](mdc:https:/nextjs.org/docs/app/building-your-application/routing/route-handlers#supported-http-methods) section for more options.
+If you use the App Router, Edit `app/api/[[...route]]/route.ts`. Refer to the [Supported HTTP Methods](https://nextjs.org/docs/app/building-your-application/routing/route-handlers#supported-http-methods) section for more options.
 
 ```ts
 import { Hono } from 'hono'
@@ -5489,11 +5683,11 @@ NODEJS_HELPERS=0
 
 # Context
 
-To handle Request and Response, you can use `Context` object.
+The `Context` object is instantiated for each request and kept until the response is returned. You can put values in it, set headers and a status code you want to return, and access HonoRequest and Response objects.
 
 ## req
 
-`req` is the instance of HonoRequest. For more details, see [HonoRequest](mdc:docs/api/request).
+`req` is an instance of HonoRequest. For more details, see [HonoRequest](/docs/api/request).
 
 ```ts twoslash
 import { Hono } from 'hono'
@@ -5508,15 +5702,42 @@ app.get('/hello', (c) => {
 })
 ```
 
+## status()
+
+You can set an HTTP status code with `c.status()`. The default is `200`. You don't have to use `c.status()` if the code is `200`.
+
+```ts twoslash
+import { Hono } from 'hono'
+const app = new Hono()
+// ---cut---
+app.post('/posts', (c) => {
+  // Set HTTP status code
+  c.status(201)
+  return c.text('Your post is created!')
+})
+```
+
+## header()
+
+You can set HTTP Headers for the response.
+
+```ts twoslash
+import { Hono } from 'hono'
+const app = new Hono()
+// ---cut---
+app.get('/', (c) => {
+  // Set headers
+  c.header('X-Message', 'My custom message')
+  return c.text('HellO!')
+})
+```
+
 ## body()
 
-Return the HTTP response.
-
-You can set headers with `c.header()` and set HTTP status code with `c.status`.
-This can also be set in `c.text()`, `c.json()` and so on.
+Return an HTTP response.
 
 ::: info
-**Note**: When returning Text or HTML, it is recommended to use `c.text()` or `c.html()`.
+**Note**: When returning text or HTML, it is recommended to use `c.text()` or `c.html()`.
 :::
 
 ```ts twoslash
@@ -5524,13 +5745,7 @@ import { Hono } from 'hono'
 const app = new Hono()
 // ---cut---
 app.get('/welcome', (c) => {
-  // Set headers
-  c.header('X-Message', 'Hello!')
   c.header('Content-Type', 'text/plain')
-
-  // Set HTTP status code
-  c.status(201)
-
   // Return the response body
   return c.body('Thank you for coming')
 })
@@ -5550,7 +5765,7 @@ app.get('/welcome', (c) => {
 })
 ```
 
-The Response is the same as below.
+The response is the same `Response` object as below.
 
 ```ts twoslash
 new Response('Thank you for coming', {
@@ -5603,7 +5818,7 @@ app.get('/', (c) => {
 
 ## notFound()
 
-Return the `Not Found` Response.
+Return a `Not Found` Response. You can customize it with [`app.notFound()`](/docs/api/hono#not-found).
 
 ```ts twoslash
 import { Hono } from 'hono'
@@ -5631,6 +5846,8 @@ app.get('/redirect-permanently', (c) => {
 ```
 
 ## res
+
+You can access the Response object that will be returned.
 
 ```ts twoslash
 import { Hono } from 'hono'
@@ -5828,6 +6045,8 @@ app.get('/pages/my-hobbies', (c) => {
 
 ## executionCtx
 
+You can access Cloudflare Workers' specific [ExecutionContext](https://developers.cloudflare.com/workers/runtime-apis/context/).
+
 ```ts twoslash
 import { Hono } from 'hono'
 const app = new Hono<{
@@ -5846,6 +6065,8 @@ app.get('/foo', async (c) => {
 ```
 
 ## event
+
+You can access Cloudflare Workers' specific `FetchEvent`. This was used in "Service Worker" syntax. But, it is not recommended now.
 
 ```ts twoslash
 import { Hono } from 'hono'
@@ -6011,7 +6232,7 @@ app.onError((err, c) => {
 
 ## `cause`
 
-The `cause` option is available to add a [`cause`](mdc:https:/developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/cause) data.
+The `cause` option is available to add a [`cause`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/cause) data.
 
 ```ts twoslash
 import { Hono, Context } from 'hono'
@@ -6062,7 +6283,7 @@ An instance of `Hono` has the following methods.
 - app.**fetch**(request, env, event)
 - app.**request**(path, options)
 
-The first part of them is used for routing, please refer to the [routing section](mdc:docs/api/routing).
+The first part of them is used for routing, please refer to the [routing section](/docs/api/routing).
 
 ## Not Found
 
@@ -6095,7 +6316,7 @@ app.onError((err, c) => {
 
 `app.fire()` automatically adds a global `fetch` event listener.
 
-This can be useful for environments that adhere to the [Service Worker API](mdc:https:/developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API), such as [non-ES module Cloudflare Workers](mdc:https:/developers.cloudflare.com/workers/reference/migrate-to-module-workers).
+This can be useful for environments that adhere to the [Service Worker API](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API), such as [non-ES module Cloudflare Workers](https://developers.cloudflare.com/workers/reference/migrate-to-module-workers/).
 
 `app.fire()` executes the following for you:
 
@@ -6341,7 +6562,7 @@ this.router = new PatternRouter()
 
 # HonoRequest
 
-The `HonoRequest` is an object that can be taken from `c.req` which wraps a [Request](mdc:https:/developer.mozilla.org/en-US/docs/Web/API/Request) object.
+The `HonoRequest` is an object that can be taken from `c.req` which wraps a [Request](https://developer.mozilla.org/en-US/docs/Web/API/Request) object.
 
 ## param()
 
@@ -6606,7 +6827,7 @@ Available targets are below.
 - `cookie`
 - `param`
 
-See the [Validation section](mdc:docs/guides/validation) for usage examples.
+See the [Validation section](/docs/guides/validation) for usage examples.
 
 ## routePath()
 
@@ -6697,7 +6918,7 @@ app.get('/about/me', async (c) => {
 
 ## raw
 
-The raw [`Request`](mdc:https:/developer.mozilla.org/en-US/docs/Web/API/Request) object.
+The raw [`Request`](https://developer.mozilla.org/en-US/docs/Web/API/Request) object.
 
 ```ts
 // For Cloudflare Workers
