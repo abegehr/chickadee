@@ -15,26 +15,26 @@
     "@hono/zod-validator": "^0.4.3",
     "chart.js": "^4.4.9",
     "chartjs-adapter-spacetime": "^1.0.1",
-    "hono": "^4.7.9",
+    "hono": "^4.7.10",
     "honox": "^0.1.40",
     "intl-parse-accept-language": "^1.0.0",
     "spacetime": "^7.10.0",
     "tailwind-merge": "^3.3.0",
     "ua-parser-js": "^2.0.3",
-    "zod": "^3.24.4"
+    "zod": "^3.25.23"
   },
   "devDependencies": {
     "@cloudflare/vite-plugin": "^0.1.21",
-    "@cloudflare/workers-types": "^4.20250513.0",
-    "@hono/vite-build": "^1.6.1",
+    "@cloudflare/workers-types": "^4.20250523.0",
+    "@hono/vite-build": "^1.6.2",
     "@hono/vite-dev-server": "^0.18.3",
     "@iconify-json/carbon": "^1.2.8",
     "@iconify/tailwind4": "^1.0.6",
     "@tailwindcss/typography": "^0.5.16",
-    "@tailwindcss/vite": "^4.1.6",
-    "daisyui": "^5.0.35",
-    "tailwindcss": "^4.1.6",
+    "@tailwindcss/vite": "^4.1.7",
+    "daisyui": "^5.0.37",
+    "tailwindcss": "^4.1.7",
     "vite": "^6.3.5",
-    "wrangler": "^4.15.0"
+    "wrangler": "^4.16.1"
   }
 }
