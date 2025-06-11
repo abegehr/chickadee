@@ -6,7 +6,8 @@ async function trackPageView() {
     script.getAttribute("data-domain") ?? window.location.hostname
   ).toLowerCase();
   const u = window.location.href;
-  const r = document.referrer;
+  const url = new URL(u);
+  const r = url.searchParams.get("ref") ?? document.referrer;
   const w = window.screen.width; // device screen width
   const t = performance.now(); // load time of the page
   const body = { d, u, r, w, t };
