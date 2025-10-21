@@ -22,7 +22,7 @@
     "@tailwindcss/vite": "^4.1.7",
     "daisyui": "^5.0.37",
     "tailwindcss": "^4.1.7",
-    "vite": "^6.3.5",
+    "vite": "^6.4.1",
     "wrangler": "^4.16.1"
   }
 }
