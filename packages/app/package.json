@@ -15,7 +15,7 @@
     "@hono/zod-validator": "^0.4.3",
     "chart.js": "^4.4.9",
     "chartjs-adapter-spacetime": "^1.0.1",
-    "hono": "^4.7.10",
+    "hono": "^4.11.4",
     "honox": "^0.1.40",
     "intl-parse-accept-language": "^1.0.0",
     "spacetime": "^7.10.0",
