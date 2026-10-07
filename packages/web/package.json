@@ -10,7 +10,7 @@
     "wrangler": "exec wrangler"
   },
   "dependencies": {
-    "hono": "^4.13.5",
+    "hono": "^4.13.7",
     "honox": "^0.1.40"
   },
   "devDependencies": {
